@@ -1,0 +1,29 @@
+<form action="{{ url_for("components")}}" method="post">
+   <style>
+      h1 {text-align: left}
+      p {text-align: center;}
+   </style>
+   <h1><label>Please enter wine components</label></h1>
+   <p><label for="FixAc">Fixed Acidity:</label>
+   <input type="text" id="FixAc" name="FA" placeholder="FixAc"><br>
+   <label for="VolAc">Volatile Acidity:</label>
+   <input type="text" id="VolAc" name="VA" placeholder="VolAc"><br>
+   <label for="CitAc">Citric Acid:</label>
+   <input type="text" id="CitAc" name="CA" placeholder="CitAc"><br>
+   <label for="ResSug">Residual Sugar:</label>
+   <input type="text" id="ResSug" name="RS" placeholder="ResSug"><br>
+   <label for="Chlo">Chlorides:</label>
+   <input type="text" id="Chlo" name="CH" placeholder="Chlo"><br>
+   <label for="FreeS2">Free Sulphides:</label>
+   <input type="text" id="FreeS2" name="FS" placeholder="FreeS2"><br>
+   <label for="TotS2">Total Sulphides:</label>
+   <input type="text" id="TotS2" name="TS" placeholder="TotS2"><br>
+   <label for="Dens">Density:</label>
+   <input type="text" id="Dens" name="De" placeholder="Dens"><br>
+   <label for="pHBaseAcid">pH:</label>
+   <input type="text" id="pHBaseAcid" name="pH" placeholder="pHBaseAcid"><br>
+   <label for="Sulph">Sulphates:</label>
+   <input type="text" id="Sulph" name="SO4" placeholder="Sulph"><br>
+   <label for="Alco">Alcohol:</label>
+   <input type="text" id="Alco" name="Al" placeholder="Alco"><br>
+   <button type="submit">Calculate Wine Quality</button></p>
